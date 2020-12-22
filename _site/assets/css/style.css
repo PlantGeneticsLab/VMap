@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #d9232d;
+  color: darkorange;
 }
 
 a:hover {
@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #d9232d;
+  background: darkorange;
 }
 
 #hero .btn-get-started {
@@ -591,7 +591,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #e6636a;
+  background: darkorange;
   margin: 4px 10px;
 }
 
@@ -679,7 +679,7 @@ section {
 .about .content h3 {
   font-weight: 500;
   line-height: 32px;
-  font-size: 24px;
+
 }
 
 .about .content ul {
@@ -697,7 +697,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #d9232d;
+  color: darkorange;
 }
 
 .about .content p:last-child {
@@ -1226,7 +1226,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #d9232d;
+  border-color: darkorange;
 }
 
 .contact .php-email-form input {
@@ -1238,7 +1238,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #d9232d;
+  background: darkorange;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1292,7 +1292,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #d9232d !important;
+  background-color: darkorange !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1344,11 +1344,10 @@ section {
   max-height: 400px;
   max-width: 90%;
   overflow: hidden;
-  margin: 0,20px,0,0;
 }
 
 .blog .entry .entry-title {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 26px;
   font-weight: bold;
   padding: 0;
@@ -1382,7 +1381,7 @@ section {
 }
 
 .blog .entry .entry-meta i {
-  font-size: 14px;
+  font-size: 16px;
   padding-right: 4px;
 }
 
@@ -1395,7 +1394,8 @@ section {
 
 .blog .entry .entry-content p {
   line-height: 24px;
-  font-size: 18px;
+  font-size: 20px;
+  color: grey;
 }
 
 .blog .entry .entry-content .read-more {
@@ -1403,24 +1403,18 @@ section {
   text-align-last: right;
 }
 
-.blog .entry .entry-content .read-more a {
-  display: inline-block;
-  background: darkorange;
-  color: #fff;
-  padding: 6px 20px 7px;
-  transition: 0.3s;
-  font-size: 14px;
-  border-radius: 4px;
-}
-
-.blog .entry .entry-content .read-more a:hover {
-  background: #e1444d;
-}
-
 .blog .entry .entry-content h3 {
   font-size: 22px;
   margin-top: 30px;
   font-weight: bold;
+}
+
+.blog .entry .entry-content h5{
+  font-size: 28px;
+}
+
+.blog .entry .entry-content h6{
+  font-size: 24px;
 }
 
 .blog .entry .entry-content blockquote {
@@ -1469,6 +1463,11 @@ section {
   margin-bottom: 20px;
 }
 
+.mailto {
+  color: darkorange;
+}
+
+
 .blog .entry .entry-footer {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
@@ -1485,7 +1484,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #d9232d;
+  color: darkorange;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1565,112 +1564,6 @@ section {
   color: #b7b7b7;
 }
 
-.blog .blog-comments {
-  margin-bottom: 30px;
-}
-
-.blog .blog-comments .comments-count {
-  font-weight: bold;
-}
-
-.blog .blog-comments .comment {
-  margin-top: 30px;
-  position: relative;
-}
-
-.blog .blog-comments .comment .comment-img {
-  width: 50px;
-}
-
-.blog .blog-comments .comment h5 {
-  margin-left: 65px;
-  font-size: 16px;
-  margin-bottom: 2px;
-}
-
-.blog .blog-comments .comment h5 a {
-  font-weight: bold;
-  color: #444444;
-  transition: 0.3s;
-}
-
-.blog .blog-comments .comment h5 a:hover {
-  color: darkorange;
-}
-
-.blog .blog-comments .comment h5 .reply {
-  padding-left: 10px;
-  color: #556270;
-}
-
-.blog .blog-comments .comment time {
-  margin-left: 65px;
-  display: block;
-  font-size: 14px;
-  color: #c1c8d0;
-  margin-bottom: 5px;
-}
-
-.blog .blog-comments .comment p {
-  margin-left: 65px;
-}
-
-.blog .blog-comments .comment.comment-reply {
-  padding-left: 40px;
-}
-
-.blog .blog-comments .reply-form {
-  margin-top: 30px;
-  padding: 30px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-.blog .blog-comments .reply-form h4 {
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.blog .blog-comments .reply-form p {
-  font-size: 14px;
-}
-
-.blog .blog-comments .reply-form input {
-  border-radius: 0;
-  padding: 20px 10px;
-  font-size: 14px;
-}
-
-.blog .blog-comments .reply-form input:focus {
-  box-shadow: none;
-  border-color: #e9797f;
-}
-
-.blog .blog-comments .reply-form textarea {
-  border-radius: 0;
-  padding: 10px 10px;
-  font-size: 14px;
-}
-
-.blog .blog-comments .reply-form textarea:focus {
-  box-shadow: none;
-  border-color: #e9797f;
-}
-
-.blog .blog-comments .reply-form .form-group {
-  margin-bottom: 25px;
-}
-
-.blog .blog-comments .reply-form .btn-primary {
-  border-radius: 4;
-  padding: 10px 20px;
-  border: 0;
-  background-color: #556270;
-}
-
-.blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: darkorange;
-}
-
 .blog .blog-pagination {
   color: #8795a4;
   display: block;
@@ -1720,12 +1613,13 @@ section {
 
 .blog .sidebar {
   padding: 30px;
-  margin: 0 0 60px 20px;
+  margin: 0 0 30px 350px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  float: left;
 }
 
 .blog .sidebar .sidebar-title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
@@ -1785,7 +1679,7 @@ section {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #d9232d;
+  color: darkorange;
 }
 
 .blog .sidebar .categories ul a span {
@@ -1852,8 +1746,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #d9232d;
-  background: #d9232d;
+  border: 1px solid darkorange;
+  background: darkorange;
 }
 
 .blog .sidebar .tags ul a span {
